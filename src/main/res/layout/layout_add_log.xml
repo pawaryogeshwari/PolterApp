@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white_color">
+
+    <RelativeLayout
+        android:id="@+id/navBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/themecolor"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_10"
+        >
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="@dimen/img_size"
+            android:layout_height="@dimen/img_size"
+            android:src="@drawable/ic_back"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:textColor="@color/title_color"
+            android:text="@string/add_log"/>
+
+        <RelativeLayout
+            android:id="@+id/rlLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_5"
+            >
+
+
+            <TextView
+                android:id="@+id/txtDone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/done"
+                android:textColor="#ffffff"
+                android:visibility="visible"
+                android:textSize="@dimen/title_font_size"
+
+                />
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="@dimen/margin_10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:text="@string/add_log_lognr"
+            android:textSize="16sp"
+            android:textColor="@color/black_color"/>
+
+        <EditText
+            android:id="@+id/edtLogNr"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.20"
+            android:textSize="@dimen/text_18sp"
+            android:padding="@dimen/margin_5"
+            android:singleLine="true"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black_color"
+            android:ems="10" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:text="@string/add_log_plate"
+            android:gravity="end"
+            android:textSize="16sp"
+            android:textColor="@color/black_color"/>
+
+        <EditText
+            android:id="@+id/edtLogPlate"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.20"
+            android:textSize="@dimen/text_18sp"
+            android:padding="@dimen/margin_5"
+            android:singleLine="true"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black_color"
+            android:ems="10" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#e1e1e1"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_5">
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="@dimen/margin_15">
+
+        <TextView
+            android:id="@+id/txtLogSpecies"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.20"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:text="@string/species_value"
+            android:textSize="@dimen/text_16sp"
+            android:textColor="@color/input_text_color"/>
+
+        <EditText
+            android:id="@+id/edtSpecies"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.20"
+            android:textSize="@dimen/text_18sp"
+            android:padding="@dimen/margin_5"
+            android:singleLine="true"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black_color"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/txtLogKind"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.12"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:text="@string/kind_value"
+            android:layout_gravity="bottom|end"
+            android:textSize="@dimen/text_16sp"
+            android:textColor="@color/input_text_color"/>
+
+        <EditText
+            android:id="@+id/edtKind"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.20"
+            android:textSize="@dimen/text_18sp"
+            android:padding="@dimen/margin_5"
+            android:singleLine="true"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black_color"
+            android:ems="10" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="@dimen/margin_20">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:text="@string/length_m"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:textColor="@color/black_color"/>
+
+        <EditText
+            android:id="@+id/edtLogLengthNr"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.20"
+            android:inputType="number"
+            android:textSize="@dimen/text_18sp"
+            android:padding="@dimen/margin_5"
+            android:singleLine="true"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black_color"
+            android:ems="10" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="@dimen/margin_10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:text="@string/oversize_m"
+            android:textSize="16sp"
+            android:textColor="@color/black_color"/>
+
+        <EditText
+            android:id="@+id/edtLogOversize"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.20"
+            android:textSize="@dimen/text_18sp"
+            android:padding="@dimen/margin_5"
+            android:singleLine="true"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black_color"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="@dimen/margin_10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:text="@string/add_log_diameter_cm"
+            android:textSize="16sp"
+            android:textColor="@color/black_color"/>
+
+        <EditText
+            android:id="@+id/edtLogDiameter"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.20"
+            android:textSize="@dimen/text_18sp"
+            android:padding="@dimen/margin_5"
+            android:singleLine="true"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black_color"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_10">
+
+        <TextView
+            android:id="@+id/txtLogQuality"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.26"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:text="@string/quality_value"
+            android:padding="@dimen/margin_10"
+            android:textSize="16sp"
+            android:textColor="@color/input_text_color"/>
+
+        <EditText
+            android:id="@+id/edtLogQuality"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.20"
+            android:textSize="@dimen/text_18sp"
+            android:padding="@dimen/margin_5"
+            android:singleLine="true"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black_color"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_10">
+
+        <TextView
+            android:id="@+id/txtLogSize"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.26"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:text="@string/size_value"
+            android:layout_gravity="center"
+            android:padding="@dimen/margin_10"
+            android:textSize="16sp"
+            android:textColor="@color/input_text_color"/>
+
+        <EditText
+            android:id="@+id/edtLogSize"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.20"
+            android:layout_gravity="center"
+            android:textSize="@dimen/text_18sp"
+            android:padding="@dimen/margin_5"
+            android:singleLine="true"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black_color"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="@dimen/margin_10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:text="@string/bark_cm"
+            android:textSize="16sp"
+            android:textColor="@color/black_color"/>
+
+        <EditText
+            android:id="@+id/edtLogBarkCm"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.20"
+            android:textSize="@dimen/text_18sp"
+            android:padding="@dimen/margin_5"
+            android:inputType="number"
+            android:singleLine="true"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black_color"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="@dimen/margin_10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:text="@string/volume_m3"
+            android:textSize="16sp"
+            android:textColor="@color/black_color"/>
+
+        <EditText
+            android:id="@+id/edtLogVolumeM3"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.20"
+            android:textSize="@dimen/text_18sp"
+            android:padding="@dimen/margin_5"
+            android:singleLine="true"
+            android:inputType="number"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black_color"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="@dimen/margin_10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:text="@string/count_value"
+            android:textSize="16sp"
+            android:textColor="@color/black_color"/>
+
+        <EditText
+            android:id="@+id/edtLogCount"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.20"
+            android:textSize="@dimen/text_18sp"
+            android:singleLine="true"
+            android:padding="@dimen/margin_5"
+            android:inputType="number"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black_color"
+            android:ems="10" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

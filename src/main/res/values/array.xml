@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="species_abbr_list">
+        <item>AH</item>
+        <item>BAh</item>
+        <item>BU</item>
+        <item>Ebe</item>
+        <item>EI</item>
+        <item>Es</item>
+        <item>FH</item>
+        <item>FÖ</item>
+        <item>HB</item>
+        <item>Fi</item>
+        <item>LÄ</item>
+        <item>Lbh/Lbb</item>
+        <item>Ndh/Ndb</item>
+        <item>SA</item>
+        <item>LI</item>
+        <item>WFo</item>
+        <!--<item>APL</item>
+        <item>ATA</item>
+        <item>BAH</item>
+        <item>BFI</item>
+        <item>BKI</item>
+        <item>BPA</item>
+        <item>BPAH</item>
+        <item>BUL</item>
+        <item>CTA</item>
+        <item>EAH</item>
+        <item>EFI</item>
+        <item>EIB</item>
+        <item>EKA</item>
+        <item>ELA</item>
+        <item>ELS</item>
+        <item>ERL</item>
+        <item>FAH</item>
+        <item>FAU</item>
+        <item>FLU</item>
+        <item>FRA</item>
+        <item>FUL</item>
+        <item>GBI</item>
+        <item>GER</item>
+        <item>GES</item>
+        <item>GFI</item>
+        <item>GFI-TA</item>
+        <item>GKI</item>
+        <item>GOT</item>
+        <item>GPA</item>
+        <item>GTK</item>
+        <item>HAS</item>
+        <item>HBU</item>
+        <item>HIC</item>
+        <item>HT</item>
+        <item>JLA</item>
+        <item>JUG</item>
+        <item>KA</item>
+        <item>KI</item>
+        <item>KIR</item>
+        <item>KTA</item>
+        <item>LB</item>
+        <item>LBH</item>
+        <item>LBHMR</item>
+        <item>LI</item>
+        <item>MAM</item>
+        <item>MAU</item>
+        <item>MBI</item>
+        <item>MEB</item>
+        <item>MES</item>
+        <item>MKI</item>
+        <item>NDH</item>
+        <item>NDH-O-LA</item>
+        <item>NITA</item>
+        <item>NOTA</item>
+        <item>NUS</item>
+        <item>OFI</item>
+        <item>PLA</item>
+        <item>POP</item>
+        <item>PRU</item>
+        <item>QUE</item>
+        <item>REI</item>
+        <item>RKA</item>
+        <item>RKI</item>
+        <item>ROB</item>
+        <item>SAH</item>
+        <item>SEI</item>
+        <item>SER</item>
+        <item>SFI</item>
+        <item>SIAH</item>
+        <item>SKI</item>
+        <item>SLA</item>
+        <item>SLBH</item>
+        <item>SLBW</item>
+        <item>SLI</item>
+        <item>SNU</item>
+        <item>SOFI</item>
+        <item>SOKI</item>
+        <item>SOLH</item>
+        <item>SOLN</item>
+        <item>SONB</item>
+        <item>SOR</item>
+        <item>SOTA</item>
+        <item>SPA</item>
+        <item>SPAH</item>
+        <item>SPE</item>
+        <item>SSO</item>
+        <item>STE</item>
+        <item>STK</item>
+        <item>STR</item>
+        <item>SUEI</item>
+        <item>SWEI</item>
+        <item>SWFI</item>
+        <item>SZ</item>
+        <item>TFI</item>
+        <item>TIL</item>
+        <item>UL</item>
+        <item>ULH</item>
+        <item>ULM</item>
+        <item>ULN</item>
+        <item>VB</item>
+        <item>VK</item>
+        <item>VTA</item>
+        <item>WAP</item>
+        <item>WBI</item>
+        <item>WER</item>
+        <item>WFI</item>
+        <item>WKI</item>
+        <item>WLI</item>
+        <item>WNU</item>
+        <item>WOB</item>
+        <item>WPA</item>
+        <item>WTA</item>
+        <item>ZEI</item>
+        <item>ZKI</item>
+        <item>ZPA</item>
+        <item>ZWE</item>-->
+    </string-array>
+
+    <string-array name="species_name_list">
+
+        <item>Ahorn</item>
+        <item>Bergahorn</item>
+        <item>Buche</item>
+        <item>Elsbeere</item>
+        <item>Eiche</item>
+        <item>Esche</item>
+        <item>Feldahorn</item>
+        <item>Fohre</item>
+        <item>Hangebuche</item>
+        <item>Fichte</item>
+        <item>Larche</item>
+        <item>Laubholz / baume</item>
+        <item>Nadelholz / -baume</item>
+        <item>Spitzahorn</item>
+        <item>Winterlinde</item>
+        <item>Waldfohre</item>
+
+
+
+
+    </string-array>
+
+    <string-array name="species_latname_list">
+
+        <item>Acer spp</item>
+        <item>Acer pseudoplatanus</item>
+        <item>Fagus sylvatica</item>
+        <item>Sorbus torminalis</item>
+        <item>Quercus spp.</item>
+        <item>Fraxinus excelsior</item>
+        <item>Acer campestre</item>
+        <item>Pinus spp</item>
+        <item>Carpinus betulus</item>
+        <item>Picea abies</item>
+        <item>Larix decidua</item>
+        <item> </item>
+        <item> </item>
+        <item>Acer platanoides</item>
+        <item>Tilia cordata</item>
+        <item>Pinus sylvestris</item>
+
+
+
+
+    </string-array>
+
+    <string-array name="kind_no_list">
+        <item>1</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>11</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>21</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>31</item>
+        <item>35</item>
+        <item>36</item>
+        <item>41</item>
+        <item>45</item>
+        <item>46</item>
+        <item>61</item>
+        <item>62</item>
+        <item>66</item>
+        <item>67</item>
+        <item>71</item>
+        <item>72</item>
+        <item>74</item>
+        <item>76</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>110</item>
+        <item>111</item>
+        <item>112</item>
+        <item>113</item>
+        <item>114</item>
+        <item>115</item>
+        <item>120</item>
+        <item>121</item>
+        <item>122</item>
+        <item>123</item>
+        <item>124</item>
+        <item>125</item>
+        <item>131</item>
+        <item>133</item>
+        <item>134</item>
+        <item>135</item>
+
+
+    </string-array>
+
+    <string-array name="kind_name_list">
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Rundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+        <item>Laubrundholz</item>
+
+    </string-array>
+
+    <string-array name="kind_abbr_list">
+        <item>Fi</item>
+        <item>Fi</item>
+        <item>Fi</item>
+        <item>Fi</item>
+        <item>Ta</item>
+        <item>Ta</item>
+        <item>Ta</item>
+        <item>Ta</item>
+        <item>Fi Ta</item>
+        <item>Fi Ta</item>
+        <item>Fi Ta</item>
+        <item>Fi Ta</item>
+        <item>Fo</item>
+        <item>Fo</item>
+        <item>Fo</item>
+        <item>La</item>
+        <item>La</item>
+        <item>La</item>
+        <item>Fi</item>
+        <item>Fi</item>
+        <item>Ta</item>
+        <item>Ta</item>
+        <item>Fi Ta</item>
+        <item>Fi Ta</item>
+        <item>Fi Ta</item>
+        <item>Fo</item>
+        <item>Bah</item>
+        <item>Li</item>
+        <item>Ui</item>
+        <item>HaBu</item>
+        <item>Rob</item>
+        <item>Bu</item>
+        <item>Bu</item>
+        <item>Bu</item>
+        <item>Bu</item>
+        <item>Bu</item>
+        <item>Bu</item>
+        <item>Ei</item>
+        <item>Ei</item>
+        <item>Ei</item>
+        <item>Ei</item>
+        <item>Ei</item>
+        <item>Ei</item>
+        <item>Es</item>
+        <item>Es</item>
+        <item>Es</item>
+        <item>Es</item>
+        <item>Es</item>
+        <item>Ki</item>
+        <item>Ki</item>
+        <item>Ki</item>
+        <item>Ki</item>
+
+
+
+    </string-array>
+
+    <string-array name="quality_list">
+        <item>A</item>
+        <item>A/B</item>
+        <item>B</item>
+        <item>B/C</item>
+        <item>C</item>
+        <item>C/D</item>
+        <item>D</item>
+
+    </string-array>
+
+    <string-array name="size_list">
+        <item>L0</item>
+        <item>L0B</item>
+        <item>L1</item>
+        <item>L1A</item>
+        <item>L1A1</item>
+        <item>L1A2</item>
+        <item>L1B</item>
+        <item>L1B1</item>
+        <item>L1B2</item>
+        <item>L2</item>
+        <item>L2A</item>
+        <item>L2B</item>
+        <item>L3</item>
+        <item>L3A</item>
+        <item>L3B</item>
+        <item>L4</item>
+        <item>L4A</item>
+        <item>L4B</item>
+        <item>L5</item>
+        <item>L5A</item>
+        <item>L5B</item>
+        <item>L6</item>
+        <item>L6A</item>
+        <item>L6B</item>
+
+    </string-array>
+
+
+
+</resources>

@@ -1,0 +1,233 @@
+<resources>
+    <string name="app_name" translatable="false">MobiPolter</string>
+    <string name="dashboard_title">Polter</string>
+    <string name="species_text">Baumart: %s</string>
+    <string name="kind_text">Sortimentsnummmer: %s</string>
+    <string name="quality_text">Qualität: %s</string>
+    <string name="length_text">Länge, m: %s</string>
+    <string name="rm_text">m3: %s</string>
+    <string name="volume_text">Volumen, m3: </string>
+    <string name="forest_owner_text">Waldbesitzer: %s</string>
+    <string name="los_id_text">LOS ID: %s</string>
+
+
+    <string name="settings">Einstellungen</string>
+    <string name="rate_app">Bitte bewerte das MobiPolter</string>
+    <string name="send_feedback">Feedback senden</string>
+    <string name="developer_website">Website des Entwicklers</string>
+    <string name="buy_app">Kaufe MobiPolter Pro</string>
+    <string name="play_store">Google Play Store</string>
+    <string name="help">Hilfe</string>
+
+
+    <string name="log_stack">Polter: %s</string>
+
+    <string name="log_stack_entry">Polters</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+
+    <!-- Home Screen Texts -->
+    <string name="edit">Editieren</string>
+    <string name="delete">Löschen</string>
+    <string name="export">Exportieren</string>
+    <string name="done">Fertig</string>
+    <string name="export_polter">Exportieren Polter</string>
+
+    <string name="alert_field_required">Pflichtfeld</string>
+
+    <string name="add_log_stack">Polter Hinzufügen</string>
+    <string name="copy_log_stack">Sollen die Stammdaten des aktiven Poltert übernommen werden?</string>
+    <string name="no_more_next_stack">Abgeschlossen nächstes Polter</string>
+    <string name="no_more_prev_stack">Abgeschlossen vorheriges Polter</string>
+
+
+    <string name="pdf_success">PDF erfolgreich erstellt</string>
+    <string name="csv_success">CSV erfolgreich erstellt</string>
+    <string name="excel_success">Excel erfolgreich erstellt</string>
+
+    <!-- Log Detail Tab Texts -->
+    <string name="tab_basic">Basisdaten</string>
+    <string name="tab_measurement">Aufnahme</string>
+    <string name="tab_photos">Fotos</string>
+    <string name="tab_location">Position</string>
+
+
+    <!-- Log Detail Tab - Log Stack Options  -->
+    <string name="log_stack_options">Polter Optionen</string>
+    <string name="export_create_pdf">PDF erstellen</string>
+    <string name="export_send_pdf_mail">PDF per Email versenden</string>
+    <string name="export_create_csv">CSV erstellen</string>
+    <string name="export_send_csv_mail">CSV per Mail versenden</string>
+    <string name="export_create_excel">Excel erstellen</string>
+    <string name="export_send_excel_mail">Excel per Email versenden</string>
+    <string name="buy_polter_pro_hint">Diese Funktion ist nur in MobiPolter Pro erhältlich</string>
+
+
+    <!-- Basic Tab Texts -->
+    <string name="los_id">LOS ID:</string>
+    <string name="stack_nr">Polter-Nr.:</string>
+    <string name="foreign_nr">Fremd-Nr.:</string>
+    <string name="date">Datum</string>
+    <string name="price">Preis</string>
+    <string name="fsc">FSC:</string>
+    <string name="pefc">PEFC:</string>
+    <string name="location">Lagerort:</string>
+    <string name="district">Revier:</string>
+    <string name="forest_owner">Waldbesitzer:</string>
+    <string name="forester">Förster</string>
+    <string name="forestry">Forstamt</string>
+    <string name="clearer">Aufarbeiter</string>
+    <string name="felier">Zufäller</string>
+    <string name="skidder">Rücker</string>
+    <string name="comment">Kommentar</string>
+
+
+    <string name="swipe_left_hint">Swipe nach links um einen Eintrag zu löschen</string>
+    <string name="use_current_location">Aktuelle Position übernehmen</string>
+
+    <!-- Measurement Tab Texts -->
+    <string name="change">ändern</string>
+    <string name="sum_of_sections">Summe der Sektionen, m:</string>
+    <string name="height_count">Anzahl Höhen:</string>
+    <string name="avg_height">Mittlere Höhe, m:</string>
+    <string name="volume">Volumen, m3 mit Rinde:</string>
+    <string name="additional_info">Zusatzinformationen</string>
+    <string name="logs_count">Anzahl Rundhölzer:</string>
+    <string name="min_top_cm">Min. Zopf cm:</string>
+    <string name="max_base_cm">Max. Stammfuss cm:</string>
+
+    <string name="alert_enter_height">Achtung! Höhe eingeben</string>
+    <string name="alert_enter_section">Achtung! Sektionslänge eingeben</string>
+
+    <string name="species">Baumart </string>
+    <string name="kind">Sortimentsnummer </string>
+    <string name="quality">Qualität </string>
+    <string name="size">Grösse</string>
+
+
+    <!-- Add New Log Strings -->
+    <string name="nr">Nr</string>
+    <string name="plate">Plättchen</string>
+    <string name="length">Länge</string>
+    <string name="diameter">Durchmesser</string>
+    <string name="add_log_volume">Volumen</string>
+    <string name="oversize">Übermass</string>
+    <string name="PFC">Z</string>
+    <string name="Lagerort">L</string>
+    <string name="LogInfo">S</string>
+
+    <string name="predefined_list">Vordefinierte Liste</string>
+    <string name="add_new_species">Neue Sorte hinzufügen</string>
+
+    <string name="surveying">Aufnahmeverfahren</string>
+    <string name="estimation_surveying">Schätzverfahren</string>
+    <string name="logs_surveying">Einzelstammerfassung</string>
+    <string name="section_surveying">Sektionsraummass</string>
+    <string name="estimation">Schätzung</string>
+    <string name="logs">Einzelstamm</string>
+    <string name="section">Sektionsraumass</string>
+    <string name="log_test">Stämme:</string>
+    <string name="log_add">Hinzufügen</string>
+    <string name="log_edit">Bearbeiten</string>
+    <string name="log_volume">Volumen, m3: %s</string>
+    <string name="log_size_class_dist">Stärkenklassenverteilung</string>
+    <string name="log_size">STKL</string>
+    <string name="log_count">Anzahl</string>
+    <string name="log_quota">Anteil</string>
+    <string name="log_volume_test"> Volumen, m3 : </string>
+    <string name="log_count_homescreen">Anzahl Rundhölzer: %s</string>
+
+    <!-- Add New Log (Measurement tab) Texts -->
+    <string name="add_log_lognr">Stamm Nr:</string>
+    <string name="add_log_plate">Plättchen:</string>
+    <string name="add_log_diameter_cm">Durchmesser, cm:</string>
+
+
+    <!-- Photos Tab Texts -->
+    <string name="photo">Photo: </string>
+    <string name="empty">keine</string>
+    <string name="new_pic">Neu</string>
+    <string name="select_pic">Auswählen</string>
+    <string name="delete_pic">Löschen</string>
+    <string name="add_log">Stamm hinzufügen</string>
+    <string name="submit"> Eingabe </string>
+
+    <string name="crop">Ausschneiden</string>
+    <string name="klasse">Klasse</string>
+
+    <string name="meter">Meter</string>
+    <string name="cm">cm</string>
+    <string name="polter_version">MobiPolter Version %s</string>
+    <string name="whats_new">Was gibts neues in V %s</string>
+    <string name="specie_abbreviation">Baumart Kürzel</string>
+    <string name="abbreviation_e_g_ae">Kürzel (z.B.- FI)</string>
+    <string name="specie_name">Baumart Name</string>
+    <string name="name">Name</string>
+    <string name="specie_latin_name">Wissenschaftlicher Name</string>
+    <string name="latin_name_optional">Wissenschaftlicher Name(optional)</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="add">Hinzufügen</string>
+    <string name="lon">Lon. :</string>
+    <string name="lat">Lat. :</string>
+    <string name="polter_info">P</string>
+    <string name="species_value">Baumart: </string>
+    <string name="kind_value">Sortimentsnummer: </string>
+    <string name="length_m">Länge, m: </string>
+    <string name="oversize_m">Übermass, m: </string>
+    <string name="quality_value">Qualität: </string>
+    <string name="size_value">STKL: </string>
+    <string name="bark_cm">Rinde, cm: </string>
+    <string name="volume_m3">Volumen, m3: </string>
+    <string name="count_value">Anzahl: </string>
+    <string name="width_m">Breite, m : </string>
+    <string name="TYP">TYP</string>
+    <string name="unit">Einheit: </string>
+    <string name="volume_value">Volumen: </string>
+    <string name="section_length_m">Sektionslänge, m : </string>
+    <string name="nr_value">Nr: </string>
+    <string name="height_m">Höhe, m : </string>
+    <string name="section_m">Sektion, m : </string>
+    <string name="st">ST:</string>
+    <string name="distr">Distr.,%: </string>
+    <string name="factor">Factor: </string>
+    <string name="plate_value">Plättchen:</string>
+    <string name="diameter_cm">Durchmesser, cm: </string>
+
+    <!--- -->
+    <string name="kind_abbreviation">Sortimentsnummer Abkürzung</string>
+    <string name="isspecial">Spezialsortiment geschätzt</string>
+
+    <string name="kind_name">Sortimentsnummer Name</string>
+    <string name="add_new_kind">Add New Sortimentsnummer</string>
+    <string name="kind_no">Sortimentsnummer No</string>
+
+    <string name="vol_m3">Volumen, ST </string>
+    <string name="inventory_report">Holz-Aufnahmereport</string>
+    <string name="created_with">erstellt mit der MobiPolter App</string>
+    <string name="csv_length_m">Länge m </string>
+    <string name="csv_width_m">Breite m </string>
+    <string name="csv_height_m">Höhe m </string>
+    <string name="csv_section_m">Sektionslänge m </string>
+    <string name="csv_diameter_cm">Durchmesser cm </string>
+    <string name="csv_volume_m3">Volumen m3</string>
+    <string name="blank_space">     </string>
+    <string name="comma">,</string>
+    <string name="logo_hint">This logo will be added to export PDF file</string>
+    <string name="address">Address Details</string>
+    <string name="bank">Bank Details</string>
+    <string name="add_addr">Add Address</string>
+    <string name="add_bank">Add Bank Account</string>
+    <string name="total_volume">Total Volume</string>
+
+    <string name="export_log">Export Log</string>
+    <string name="export_add_logo">Add Logo</string>
+    <string name="logo">Logos</string>
+
+    <string name="csv_sum_of_sections">Summe der Sektionen m</string>
+    <string name="csv_avg_height">Mittlere Höhe m</string>
+    <string name="csv_volume">Volumen m3 mit Rinde</string>
+    <string name="csv_distr">Distr %</string>
+
+
+
+</resources>

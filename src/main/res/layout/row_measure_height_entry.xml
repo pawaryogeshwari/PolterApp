@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#e3e3e3"
+    android:weightSum="1"
+    android:padding="@dimen/margin_5">
+
+
+    <TextView
+        android:id="@+id/txtIndex"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.30"
+        android:textColor="@color/black_color"
+        android:text="1.00"
+        android:singleLine="true"
+        android:textSize="@dimen/text_16sp"/>
+
+    <TextView
+        android:id="@+id/txtHeightEntry"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.30"
+        android:textColor="@color/black_color"
+        android:text="1.00"
+        android:singleLine="true"
+        android:textSize="@dimen/text_16sp"/>
+
+    <TextView
+        android:id="@+id/txtSectionEntry"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.30"
+        android:textColor="@color/black_color"
+        android:text="1.00"
+        android:singleLine="true"
+        android:textSize="@dimen/text_16sp"/>
+
+
+</LinearLayout>

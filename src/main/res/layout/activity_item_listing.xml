@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:andorid="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white_color">
+
+    <RelativeLayout
+        android:id="@+id/navBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/themecolor"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_10"
+        >
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="@dimen/img_size"
+            android:layout_height="@dimen/img_size"
+            android:layout_marginTop="@dimen/margin_5"
+            android:src="@drawable/ic_back"
+            android:padding="2dp"
+
+            />
+
+        <TextView
+            android:id="@+id/itemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:textColor="@color/title_color"
+            android:text="@string/species"/>
+
+
+        <ImageView
+            android:id="@+id/imgAdd"
+            android:layout_width="@dimen/img_size"
+            android:layout_height="@dimen/img_size"
+            android:layout_marginTop="@dimen/margin_5"
+            android:src="@drawable/ic_add"
+            android:layout_alignParentRight="true"
+
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_marginTop="@dimen/margin_15"
+        android:padding="@dimen/margin_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black_color"
+        android:text="@string/species"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvItemList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>

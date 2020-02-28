@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_color">
+
+    <LinearLayout
+        android:id="@+id/llParent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:weightSum="1"
+        android:background="@drawable/bg_dialog"
+       >
+
+        <TextView
+            android:id="@+id/tvItemText"
+            android:padding="2dp"
+            android:layout_marginLeft="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textSize="@dimen/text_18sp"
+            android:textColor="@color/black_color"
+            />
+
+        <TextView
+            android:id="@+id/tvItemSubText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:gravity="left|center"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textStyle="normal"
+            android:textSize="@dimen/text_18sp"
+            android:textColor="@color/black_color"
+            android:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/tvItemLatText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_marginLeft="3dp"
+            android:gravity="left|center"
+            android:textStyle="normal"
+            android:textSize="@dimen/text_18sp"
+            android:textColor="@color/black_color"
+            android:visibility="visible"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/vwSeperator"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#e3e3e3"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_20"
+        android:visibility="gone"/>
+
+</android.support.constraint.ConstraintLayout>

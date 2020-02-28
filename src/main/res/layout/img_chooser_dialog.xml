@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    android:padding="@dimen/margin_5"
+    android:layout_margin="@dimen/margin_5"
+    >
+
+
+    <TextView
+        android:id="@+id/txtCam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take Photo"
+        android:padding="10dp"
+        android:textColor="@color/colorAccent"
+        />
+
+
+    <View
+        android:id="@+id/vwAccSeperator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#e3e3e3"
+        />
+
+
+    <TextView
+        android:id="@+id/txtGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose from Gallery"
+        android:padding="10dp"
+        android:textColor="@color/colorAccent"/>
+
+    <View
+        android:id="@+id/vwSep"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#e3e3e3"
+        />
+
+    <TextView
+        android:id="@+id/txtRemove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove Photo"
+        android:padding="10dp"
+        android:textColor="@color/colorAccent"
+        />
+
+</LinearLayout>

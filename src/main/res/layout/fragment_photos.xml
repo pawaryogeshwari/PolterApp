@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white_color"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_20"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/margin_10"
+        android:weightSum="2.5">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="wrap_content"
+            android:text="@string/photo"
+            android:textColor="@color/black_color"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:textSize="@dimen/text_16sp"/>
+
+        <TextView
+            android:id="@+id/txtPhotoCount"
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_color"
+            android:text="@string/empty"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:textSize="@dimen/text_16sp"/>
+
+        <TextView
+            android:id="@+id/txtPhotoNew"
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="wrap_content"
+            android:textColor="#795548"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:textSize="@dimen/text_16sp"
+            android:text="@string/new_pic"/>
+
+
+        <TextView
+            android:id="@+id/txtPhotoSelect"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:ellipsize="end"
+            android:layout_height="wrap_content"
+            android:textColor="#795548"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:textSize="@dimen/text_16sp"
+            android:text="@string/select_pic"/>
+
+
+        <TextView
+            android:id="@+id/txtPhotoDelete"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:ellipsize="end"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_color"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:textSize="@dimen/text_16sp"
+            android:text="@string/delete_pic"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_gray_color"
+        android:layout_marginTop="@dimen/margin_5"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_20"
+        android:layout_marginBottom="@dimen/margin_20">
+
+     <android.support.v7.widget.RecyclerView
+         android:id="@+id/rvImageList"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:scrollbars="horizontal"
+         >
+
+
+     </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+</LinearLayout>

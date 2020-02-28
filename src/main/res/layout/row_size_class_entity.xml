@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#e3e3e3"
+    android:weightSum="1"
+    android:padding="@dimen/margin_5">
+
+
+    <TextView
+        android:id="@+id/txtSize"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/text_16sp"/>
+
+    <TextView
+        android:id="@+id/txtSizeCount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:textColor="@color/black_color"
+        android:text="0"
+        android:textSize="@dimen/text_16sp"/>
+
+    <TextView
+        android:id="@+id/txtSizeQuota"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:textColor="@color/black_color"
+        android:text="0.00"
+        android:textSize="@dimen/text_16sp"/>
+
+    <TextView
+        android:id="@+id/txtSizeVolume"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:textColor="@color/black_color"
+        android:text="0.00"
+        android:textSize="@dimen/text_16sp"/>
+
+
+</LinearLayout>

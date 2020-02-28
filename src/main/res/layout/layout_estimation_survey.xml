@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white_color"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_10">
+
+        <TextView
+            android:id="@+id/txtEstimationSpecies"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.20"
+            android:gravity="center_vertical|end"
+            android:text="@string/species"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:textColor="@color/input_text_color"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05"
+            android:gravity="center_vertical|end"
+            android:text=":"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:textColor="@color/input_text_color"/>
+
+        <EditText
+            android:id="@+id/edtSpecies"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.20"
+            android:textSize="@dimen/text_18sp"
+            android:padding="@dimen/margin_5"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:singleLine="true"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black_color"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/txtEstimationKind"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:text="@string/kind"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:gravity="center_vertical|end"
+            android:textSize="16sp"
+            android:textColor="@color/input_text_color"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05"
+            android:gravity="center_vertical|end"
+            android:text=":"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:textColor="@color/input_text_color"/>
+
+        <EditText
+            android:id="@+id/edtKind"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.20"
+            android:textSize="@dimen/text_18sp"
+            android:padding="@dimen/margin_5"
+            android:singleLine="true"
+            android:layout_marginRight="@dimen/margin_5"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black_color"
+            android:ems="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginLeft="@dimen/margin_5"
+        android:layout_marginTop="@dimen/margin_10">
+
+        <TextView
+            android:id="@+id/txtEstimationQuality"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.20"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:gravity="center_vertical|end"
+            android:text="@string/quality_value"
+            android:textSize="16sp"
+            android:textColor="@color/input_text_color"/>
+
+        <EditText
+            android:id="@+id/edtQuality"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.20"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:textSize="@dimen/text_18sp"
+            android:padding="@dimen/margin_5"
+            android:singleLine="true"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black_color"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/txtEstimationSize"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.20"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:text="@string/size_value"
+            android:gravity="center_vertical|end"
+            android:textSize="16sp"
+            android:textColor="@color/input_text_color"/>
+
+        <EditText
+            android:id="@+id/edtSize"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.20"
+            android:textSize="@dimen/text_18sp"
+            android:padding="@dimen/margin_5"
+            android:inputType="text"
+            android:singleLine="true"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black_color"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#e3e3e3"
+        android:layout_margin="@dimen/margin_10"/>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="@dimen/margin_10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:gravity="center_vertical|end"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:text="@string/length_m"
+            android:textSize="16sp"
+            android:textColor="@color/black_color"/>
+
+        <EditText
+            android:id="@+id/edtLength"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.20"
+            android:textSize="@dimen/text_18sp"
+            android:padding="@dimen/margin_5"
+            android:singleLine="true"
+            android:inputType="number"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black_color"
+            android:ems="10" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.21"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:text="@string/width_m"
+            android:gravity="center_vertical|end"
+            android:textSize="16sp"
+            android:textColor="@color/black_color"/>
+
+        <EditText
+            android:id="@+id/edtWidth"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.20"
+            android:textSize="@dimen/text_18sp"
+            android:padding="@dimen/margin_5"
+            android:inputType="number"
+            android:singleLine="true"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black_color"
+            android:ems="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_10">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.30"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:text="@string/unit"
+            android:gravity="center_vertical|end"
+            android:textSize="16sp"
+            android:textColor="@color/input_text_color"/>
+
+        <EditText
+            android:id="@+id/edtUnit"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.20"
+            android:textSize="@dimen/text_18sp"
+            android:padding="@dimen/margin_5"
+            android:inputType="text"
+            android:singleLine="true"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black_color"
+            android:ems="10" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.20"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:text="@string/volume_value"
+            android:gravity="center_vertical|end"
+            android:textSize="16sp"
+            android:textColor="@color/black_color"/>
+
+        <EditText
+            android:id="@+id/edtVolume"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.20"
+            android:textSize="@dimen/text_18sp"
+            android:padding="@dimen/margin_5"
+            android:inputType="number"
+            android:singleLine="true"
+            android:background="@drawable/edittext_style"
+            android:textColor="@color/black_color"
+            android:ems="10" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"/>
+
+    </LinearLayout>
+
+</LinearLayout>

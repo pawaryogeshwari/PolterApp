@@ -1,0 +1,238 @@
+<resources>
+    <string name="app_name" translatable="false">MobiPolter</string>
+    <string name="dashboard_title">Log Stacks</string>
+    <string name="species_text">Species: %s</string>
+    <string name="kind_text">Kind: %s</string>
+    <string name="quality_text">Quality: %s</string>
+    <string name="length_text">Length, m: %s</string>
+    <string name="rm_text">RM: %s</string>
+    <string name="volume_text">Volume, ST: </string>
+    <string name="forest_owner_text">Forest Owner: %s</string>
+    <string name="los_id_text">LOS ID: %s</string>
+
+
+
+    <string name="settings">Settings</string>
+    <string name="rate_app">Please, Rate MobiPolter!</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="developer_website">Developer Website</string>
+    <string name="buy_app">Buy MobiPolter Pro</string>
+    <string name="play_store">Google Play Store</string>
+    <string name="help">Help</string>
+    <string name="export_log">Export Log</string>
+    <string name="export_add_logo">Add Logo</string>
+    <string name="logo">Logos</string>
+
+
+    <string name="log_stack">Log stacks: %s</string>
+    <string name="log_stack_entry">Log Stacks</string>
+
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Home Screen Texts -->
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="export">Export</string>
+    <string name="done">Done</string>
+
+    <string name="alert_field_required">Field is required</string>
+
+    <string name="add_log_stack">Add Log Stack</string>
+    <string name="copy_log_stack">Do you want to copy from Log stack?</string>
+    <string name="no_more_next_stack">No more next logstack</string>
+    <string name="no_more_prev_stack">No more previous logstack</string>
+
+
+    <string name="pdf_success">PDF created successfully</string>
+    <string name="csv_success">CSV created successfully</string>
+    <string name="excel_success">Excel created successfully</string>
+
+    <string name="error">Something went wrong. Try again</string>
+
+    <!-- Log Detail Tab Texts -->
+    <string name="tab_basic">Basic</string>
+    <string name="tab_measurement">Measurement</string>
+    <string name="tab_photos">Photos</string>
+    <string name="tab_location">Location</string>
+
+
+    <!-- Log Detail Tab - Log Stack Options  -->
+    <string name="log_stack_options">Log Stack Options</string>
+    <string name="export_create_pdf">Create PDF</string>
+    <string name="export_send_pdf_mail">Send PDF per Email</string>
+    <string name="export_create_csv">Create CSV</string>
+    <string name="export_send_csv_mail">Send CSV per Email</string>
+    <string name="export_create_excel">Create Excel</string>
+    <string name="export_send_excel_mail">Send Excel per Email</string>
+    <string name="buy_polter_pro_hint">This feature is available only in Polter Pro version</string>
+
+
+    <!-- Basic Tab Texts -->
+    <string name="los_id">LOS ID:</string>
+    <string name="stack_nr">Stack-Nr.:</string>
+    <string name="foreign_nr">Foreign-Nr.:</string>
+    <string name="date">Date</string>
+    <string name="price">Price</string>
+    <string name="fsc">FSC:</string>
+    <string name="pefc">PEFC:</string>
+    <string name="location">Location:</string>
+    <string name="district">District</string>
+    <string name="forest_owner">Forest Owner:</string>
+    <string name="forester">Forester</string>
+    <string name="forestry">Forestry</string>
+    <string name="clearer">Clearer</string>
+    <string name="felier">Felier</string>
+    <string name="skidder">Skidder</string>
+    <string name="comment">Comment</string>
+
+
+    <string name="swipe_left_hint">Swipe left to delete an entry</string>
+    <string name="use_current_location">Use current Position</string>
+
+    <!-- Measurement Tab Texts -->
+    <string name="change">Change</string>
+    <string name="sum_of_sections">Sum of sections, m:</string>
+    <string name="height_count">Height count:</string>
+    <string name="avg_height">Aver.Height, m:</string>
+    <string name="volume">Volume, ST w,bark:</string>
+    <string name="additional_info">Additional Information</string>
+    <string name="logs_count">Logs count:</string>
+    <string name="min_top_cm">Min. top cm:</string>
+    <string name="max_base_cm">Max. base cm:</string>
+
+    <string name="alert_enter_height">Please enter height measures</string>
+    <string name="alert_enter_section">Please enter section measures</string>
+
+    <string name="species">Species</string>
+    <string name="kind">Kind</string>
+    <string name="quality">Quality</string>
+    <string name="size">Size</string>
+
+
+    <!-- Add New Log Strings -->
+    <string name="nr">Nr</string>
+    <string name="TYP">TYP</string>
+    <string name="PFC">Z</string>
+    <string name="Lagerort">L</string>
+    <string name="LogInfo">S</string>
+
+
+
+    <string name="polter_info">P</string>
+    <string name="plate">Plates</string>
+    <string name="length">Length</string>
+    <string name="diameter">Dm</string>
+    <string name="add_log_volume">Volume</string>
+    <string name="oversize">Oversize</string>
+
+    <string name="predefined_list">Pre-defined List</string>
+    <string name="add_new_species">Add New Specie</string>
+
+    <string name="surveying">Surveying</string>
+    <string name="estimation_surveying">Estimation Surveying</string>
+    <string name="logs_surveying">Logs Surveying</string>
+    <string name="section_surveying">Sections Surveying</string>
+    <string name="estimation">Estimation</string>
+    <string name="logs">Logs</string>
+    <string name="section">Section</string>
+    <string name="log_test">Logs:</string>
+    <string name="log_add">Add</string>
+    <string name="log_edit">Edit</string>
+    <string name="log_volume">Volume, m3: %s</string>
+    <string name="log_size_class_dist">Size Class Distribution</string>
+    <string name="log_size">Size</string>
+    <string name="log_count">Count</string>
+    <string name="log_quota">Quota</string>
+    <string name="log_volume_test"> Volume, m3 : </string>
+    <string name="log_count_homescreen">Log count: %s</string>
+
+    <!-- Add New Log (Measurement tab) Texts -->
+    <string name="add_log_lognr">Log Nr:</string>
+    <string name="add_log_plate">Plate:</string>
+    <string name="add_log_diameter_cm">Diameter, cm:</string>
+
+
+    <!-- Photos Tab Texts -->
+    <string name="photo">Photo: </string>
+    <string name="empty">empty</string>
+    <string name="new_pic">New</string>
+    <string name="select_pic">Select</string>
+    <string name="delete_pic">Delete</string>
+    <string name="add_log">Add Log</string>
+
+    <string name="crop">CROP</string>
+    <string name="klasse">Klasse</string>
+
+    <string name="meter">meters</string>
+    <string name="cm">cm</string>
+    <string name="polter_version">Polter Version %s</string>
+    <string name="whats_new">Whats New in V %s</string>
+    <string name="specie_abbreviation">Specie Abbreviation</string>
+    <string name="abbreviation_e_g_ae">Abbreviation (e.g. - AE)</string>
+    <string name="specie_name">Specie Name</string>
+    <string name="name">name</string>
+    <string name="specie_latin_name">Specie Latin Name</string>
+    <string name="latin_name_optional">Latin Name(optional)</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="lon">Lon. :</string>
+    <string name="lat">Lat. :</string>
+    <string name="species_value">Species: %s </string>
+    <string name="kind_value">Kind: %s </string>
+    <string name="length_m">Length, m: </string>
+    <string name="oversize_m">Oversize, m: </string>
+    <string name="quality_value">Quality: </string>
+    <string name="size_value">Size: </string>
+    <string name="bark_cm">Bark, cm: </string>
+    <string name="volume_m3">Volume, m3: </string>
+    <string name="count_value">Count: </string>
+    <string name="width_m">Width, m : </string>
+    <string name="unit">Unit: </string>
+    <string name="volume_value">Volume: </string>
+    <string name="section_length_m">Section length, m : </string>
+    <string name="nr_value">Nr: </string>
+    <string name="height_m">Height, m : </string>
+    <string name="section_m">Section, m : </string>
+    <string name="st">ST:</string>
+    <string name="distr">Distr.,%: </string>
+    <string name="factor">Factor: </string>
+    <string name="plate_value">Plate:</string>
+    <string name="diameter_cm">Diameter, cm: </string>
+
+    <string name="add_new_kind">Add New Kind</string>
+
+    <string name="kind_abbreviation">Kind Abbreviation</string>
+    <string name="kind_name">Kind Name</string>
+    <string name="kind_no">Kind No</string>
+
+    <string name="inventory_report">Inventory Report</string>
+    <string name="vol_m3">Volume, ST </string>
+
+    <string name="created_with">Created With MobiPolterApp</string>
+    <string name="csv_length_m">Length m </string>
+    <string name="csv_width_m">Width m </string>
+    <string name="csv_height_m">Height m </string>
+    <string name="csv_section_m">Section length m  </string>
+    <string name="csv_diameter_cm">Diameter cm</string>
+    <string name="csv_volume_m3">Volume m3 </string>
+    <string name="blank_space">     </string>
+    <string name="comma">,</string>
+    <string name="logo_hint">This logo will be added to export PDF file</string>
+    <string name="address">Address Details</string>
+    <string name="bank">Bank Details</string>
+    <string name="add_addr">Add Address</string>
+    <string name="add_bank">Add Bank Account</string>
+    <string name="total_volume">Total Volume</string>
+
+    <string name="csv_sum_of_sections">Sum of Sections m</string>
+    <string name="csv_avg_height">Avg Height m</string>
+    <string name="csv_volume">Volume ST w bark</string>
+    <string name="csv_distr">Distr %</string>
+    <string name="submit">Submit</string>
+    <string name="isspecial">isSpecial</string>
+    <string name="export_polter">Export Polter</string>
+
+
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_dialog"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_centerHorizontal="true"
+    android:layout_centerInParent="true"
+    >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:text="@string/add_new_species"
+            android:textColor="@color/black_color"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/margin_30"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/specie_abbreviation"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/text_16sp"/>
+
+
+                <EditText
+                    android:id="@+id/edtAbbr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/abbreviation_e_g_ae"
+                    android:textColor="@color/black_color"
+                    app:backgroundTint="@color/black_color"
+                    android:textColorHint="@color/gray_color"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/specie_name"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/text_16sp"/>
+
+
+                <EditText
+                    android:id="@+id/edtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/name"
+                    android:textColor="@color/black_color"
+                    app:backgroundTint="@color/black_color"
+                    android:textColorHint="@color/gray_color"/>
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/specie_latin_name"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/text_16sp"/>
+
+
+
+                <EditText
+                    android:id="@+id/edtLatName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/latin_name_optional"
+                    android:textColor="@color/black_color"
+                    app:backgroundTint="@color/black_color"
+                    android:textColorHint="@color/gray_color"/>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:layout_margin="@dimen/margin_5"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="@dimen/margin_10"
+                android:layout_weight="1"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/cancel"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textColor="@color/themecolor"
+                android:background="@null"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/add"
+                android:textColor="@color/themecolor"
+                android:background="@null"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+</LinearLayout>
