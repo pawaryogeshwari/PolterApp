@@ -117,7 +117,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_weight="0.20"
+            android:layout_weight="0.19"
             android:layout_marginLeft="3dp"
             >
 
@@ -224,7 +224,6 @@
             >
 
             <TextView
-
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/quality"
@@ -251,15 +250,13 @@
                 android:textSize="18sp"/>
 
 
-
-
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_weight="0.25"
+            android:layout_weight="0.18"
             android:layout_marginLeft="3dp"
             >
 
@@ -289,13 +286,24 @@
                 android:textStyle="normal"
                 android:background="@drawable/bg_dialog"
                 android:textSize="18sp"/>
-
-
-
-
         </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.10"
+        >
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/imgNextLog"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_arrow_upward_black_24dp"
+            android:visibility="visible"
+            />
+    </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
@@ -313,7 +321,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_weight="0.20"
+            android:layout_weight="0.18"
             >
 
             <TextView
@@ -356,6 +364,7 @@
                 android:padding="5dp"
                 android:gravity="center"
                 android:textStyle="normal"
+                android:imeOptions="actionNext"
                 android:background="@drawable/bg_dialog"
                 android:textSize="18sp"/>
 
@@ -368,7 +377,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_weight="0.15"
+            android:layout_weight="0.14"
             android:layout_marginLeft="3dp"
             >
 
@@ -412,6 +421,7 @@
                 android:padding="5dp"
                 android:gravity="center"
                 android:textStyle="normal"
+                android:imeOptions="actionNext"
                 android:background="@drawable/bg_dialog"
                 android:textSize="18sp"/>
 
@@ -466,6 +476,7 @@
                 android:padding="5dp"
                 android:gravity="center"
                 android:textStyle="normal"
+                android:imeOptions="actionNext"
                 android:background="@drawable/bg_dialog"
                 android:textSize="18sp"/>
 
@@ -478,7 +489,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_weight="0.25"
+            android:layout_weight="0.22"
             android:layout_marginLeft="3dp"
             >
 
@@ -520,6 +531,8 @@
                 android:padding="5dp"
                 android:gravity="center"
                 android:textStyle="normal"
+                android:imeOptions="actionNext"
+
                 android:background="@drawable/bg_dialog"
                 android:textSize="18sp"/>
 
@@ -532,8 +545,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_weight="0.20"
-            android:layout_marginLeft="3dp"
+            android:layout_weight="0.18"
+            android:layout_marginLeft="2dp"
             >
 
             <TextView
@@ -579,6 +592,23 @@
 
 
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.10"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/imgPrevLog"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_arrow_downward_black_24dp"
+                android:visibility="visible"
+                />
         </LinearLayout>
 
 
@@ -984,7 +1014,7 @@
             android:layout_gravity="center"
             android:scaleType="center"
             android:id="@+id/imgShowNextLog"
-            android:src="@drawable/ic_forward"
+            android:src="@drawable/ic_arrow_back_black_24dp"
             android:visibility="visible"
             />
 
@@ -994,7 +1024,8 @@
             android:layout_height="30dp"
             android:layout_gravity="center"
             android:layout_weight="1"
-            android:src="@drawable/ic_backwrd_disable"
+            android:layout_marginLeft="3dp"
+            android:src="@drawable/ic_arrow_forward_black_24dp"
             android:scaleType="center"
             android:visibility="visible"
             />
@@ -1006,6 +1037,7 @@
             android:layout_height="40dp"
             android:layout_weight="1"
             android:gravity="center"
+            android:layout_marginLeft="3dp"
             android:text="@string/submit"
             android:background="#008000"
             android:textColor="@color/white_color"

@@ -11,7 +11,7 @@
     <color name="tab_selected_color">#200000</color>
     <color name="input_text_color">#593942</color>
     <color name="toggle_selected_color">#4DD261</color>
-
+    <color name="up_down_arrow_color">#FF5722</color>
     <color name="dark_gray_color">#9e9e9e</color>
     <color name="item_selected_color">#55e3f2fd</color>
 
