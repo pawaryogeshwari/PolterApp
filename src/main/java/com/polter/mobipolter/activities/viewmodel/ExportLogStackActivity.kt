@@ -430,7 +430,7 @@ class ExportLogStackActivity:AppCompatActivity(),ExportLogInfoAdapter.onLogItemC
 
         // Setting the intent for pdf reader
         val pdfIntent = Intent(Intent.ACTION_VIEW)
-        pdfIntent.setDataAndType(contentUri, "application/xls")
+        pdfIntent.setDataAndType(contentUri, "application/vnd.ms-excel")
         pdfIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
         pdfIntent.addFlags(Intent.FLAG_GRANT_WRITE_URI_PERMISSION)
         pdfIntent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY)
@@ -438,7 +438,9 @@ class ExportLogStackActivity:AppCompatActivity(),ExportLogInfoAdapter.onLogItemC
 
         try {
             startActivity(pdfIntent)
-        } catch (e: ActivityNotFoundException) {
+        }
+        catch (e: ActivityNotFoundException) {
+
             Toast.makeText(this, "No app found for opening excel file", Toast.LENGTH_SHORT).show()
         }
 

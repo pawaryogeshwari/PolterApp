@@ -25,9 +25,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         >
+
+
         <activity android:name="com.polter.mobipolter.DashboardActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

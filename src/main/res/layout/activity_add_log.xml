@@ -105,7 +105,7 @@
                 android:background="@drawable/bg_dialog"
                 android:textSize="18sp"
                 android:imeOptions="actionNext"
-                android:nextFocusForward="@+id/edtSpecies"
+                android:nextFocusRight="@+id/edtSpecies"
                 />
 
 
@@ -145,6 +145,8 @@
                 android:padding="5dp"
                 android:gravity="center"
                 android:textStyle="normal"
+                android:imeOptions="actionNext"
+                android:nextFocusRight="@id/edtKind"
                 android:background="@drawable/bg_dialog"
                 android:textSize="18sp"/>
 
@@ -207,6 +209,8 @@
                 android:padding="5dp"
                 android:gravity="center"
                 android:textStyle="normal"
+                android:imeOptions="actionNext"
+                android:nextFocusRight="@id/edtLogQuality"
                 android:background="@drawable/bg_dialog"
                 android:textSize="18sp"/>
 
@@ -246,6 +250,8 @@
                 android:padding="5dp"
                 android:gravity="center"
                 android:textStyle="normal"
+                android:imeOptions="actionNext"
+                android:nextFocusRight="@id/edtLogPlate"
                 android:background="@drawable/bg_dialog"
                 android:textSize="18sp"/>
 
@@ -1007,25 +1013,27 @@
         android:weightSum="3"
         >
 
-        <ImageView
+        <TextView
             android:layout_width="0dp"
             android:layout_height="@dimen/margin_30"
             android:layout_weight="1"
             android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
             android:scaleType="center"
             android:id="@+id/imgShowNextLog"
-            android:src="@drawable/ic_arrow_back_black_24dp"
+            android:drawableLeft="@drawable/ic_arrow_back_black_24dp"
             android:visibility="visible"
             />
 
-        <ImageView
+        <TextView
             android:id="@+id/imgShowPrevLog"
             android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_gravity="center"
             android:layout_weight="1"
-            android:layout_marginLeft="3dp"
-            android:src="@drawable/ic_arrow_forward_black_24dp"
+            android:paddingLeft="40dp"
+            android:layout_marginRight="80dp"
+            android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
             android:scaleType="center"
             android:visibility="visible"
             />

@@ -4596,7 +4596,7 @@ class LogEntryDetailActivity : AppCompatActivity(), BasicFragment.saveListener {
 
         // Setting the intent for pdf reader
         val csvIntent = Intent(Intent.ACTION_VIEW)
-        csvIntent.setDataAndType(contentUri, "application/xls")
+        csvIntent.setDataAndType(contentUri, "application/vnd.ms-excel")
         csvIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
         csvIntent.addFlags(Intent.FLAG_GRANT_WRITE_URI_PERMISSION)
         csvIntent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY)

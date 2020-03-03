@@ -32,6 +32,7 @@ import android.os.Environment.getExternalStorageDirectory
 import android.print.PrintAttributes
 import android.support.v4.content.FileProvider
 import android.util.Log
+import android.webkit.MimeTypeMap
 import com.google.gson.Gson
 import com.itextpdf.text.*
 import com.itextpdf.text.Font
@@ -3256,6 +3257,7 @@ class DashboardActivity : AppCompatActivity(), DashboardLogListener {
 
     }
 
+
     // Method for opening a pdf file
     private fun viewExcel(files : File,file: String, directory: String) {
 
@@ -3264,8 +3266,9 @@ class DashboardActivity : AppCompatActivity(), DashboardLogListener {
         //val path = contentUri.path
 
         // Setting the intent for pdf reader
+        var myMime = MimeTypeMap.getSingleton()
         val pdfIntent = Intent(Intent.ACTION_VIEW)
-        pdfIntent.setDataAndType(contentUri, "application/xls")
+        pdfIntent.setDataAndType(contentUri, "application/vnd.ms-excel")
         pdfIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
         pdfIntent.addFlags(Intent.FLAG_GRANT_WRITE_URI_PERMISSION)
         pdfIntent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY)

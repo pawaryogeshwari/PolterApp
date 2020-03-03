@@ -22,7 +22,9 @@ import android.text.*
 import android.util.Log
 import android.view.KeyEvent
 import android.view.View
+import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
+import android.widget.TextView
 import com.polter.mobipolter.R
 import com.polter.mobipolter.activities.adapters.ItemListAdapter
 import com.polter.mobipolter.activities.adapters.onItemClick
@@ -204,57 +206,29 @@ class AddLogActivity : AppCompatActivity(), View.OnClickListener, onItemClick {
         }
 
 
-
-
-      imgShowNextLog.setOnClickListener {
-
-
-          edtLogLengthNr.addTextChangedListener(object:TextWatcher {
-              override fun onTextChanged(s:CharSequence, start:Int, before:Int,
-                                         count:Int) {
-                  val textlength1 = edtLogLengthNr.getText().length
-                  if (textlength1 >= 1)
-                  {
-                      edtLogDiameter.requestFocus()
-                      edtLogDiameter.isActivated = true
-                      edtLogDiameter.isPressed = true
-                  }
-              }
-              override fun afterTextChanged(s:Editable) {
-                  // TODO Auto-generated method stub
-              }
-              override fun beforeTextChanged(s:CharSequence, start:Int, count:Int,
-                                             after:Int) {
-                  // TODO Auto-generated method stub
-              }
-          })
-          edtLogDiameter.addTextChangedListener(object:TextWatcher {
-              override fun onTextChanged(s:CharSequence, start:Int, before:Int,
-                                         count:Int) {
-                  val textlength2 = edtLogLengthNr.getText().length
-                  if (textlength2 >= 1)
-                  {
-                      edtLogVolumeM3.requestFocus()
-                      edtLogVolumeM3.isActivated = true
-                      edtLogVolumeM3.isPressed = true
-                  }
-              }
-
-
-              override fun afterTextChanged(s:Editable) {
-                  // TODO Auto-generated method stub
-              }
-              override fun beforeTextChanged(s:CharSequence, start:Int, count:Int,
-                                             after:Int) {
-                  // TODO Auto-generated method stub
-              }
-          })
-
-      }
-
-
-
-
+//        imgShowPrevLog.addTextChangedListener(object:TextWatcher {
+//
+//              override fun onTextChanged(s:CharSequence, start:Int, before:Int,
+//                                         count:Int) {
+//                  val textlength1 = edtLogLengthNr.getText().length
+//                  val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+//                  imm.showSoftInput(edtSpecies, InputMethodManager.SHOW_IMPLICIT)
+//                  if (textlength1 >= 1)
+//                  {
+//                      edtSpecies.requestFocus()
+//                      edtSpecies.setSelection(1)
+//                      edtSpecies.isActivated = true
+//                      edtSpecies.isPressed = true
+//                  }
+//              }
+//              override fun afterTextChanged(s:Editable) {
+//                  // TODO Auto-generated method stub
+//              }
+//              override fun beforeTextChanged(s:CharSequence, start:Int, count:Int,
+//                                             after:Int) {
+//                  // TODO Auto-generated method stub
+//              }
+//          })
 
 
         viewModel?.allSpecies?.observe(this, Observer<List<SpeciesEntity>> { speciesListDB ->
@@ -721,6 +695,8 @@ class AddLogActivity : AppCompatActivity(), View.OnClickListener, onItemClick {
                         edtSpecies.setText(addLogEntity?.species.toString())
                     if (addLogEntity?.kind != null)
                         edtKind.setText(addLogEntity?.kind.toString())
+                    if (addLogEntity?.quality!=null)
+                        edtLogQuality.setText(addLogEntity?.quality)
 
                 } else {
                     Toast.makeText(this, getString(R.string.no_more_prev_stack), Toast.LENGTH_SHORT).show()
@@ -760,11 +736,10 @@ class AddLogActivity : AppCompatActivity(), View.OnClickListener, onItemClick {
 
                 } else {
                     // edtLogLengthNr.text.clear()
-                    edtLogDiameter.text.clear()
-                    edtLogSize.text.clear()
-                    edtLogVolumeM3.text.clear()
-                    edtLogOversize.text.clear()
-                    edtLogQuality.text.clear()
+//                    edtLogDiameter.text.clear()
+//                    edtLogSize.text.clear()
+//                    edtLogVolumeM3.text.clear()
+//                    edtLogOversize.text.clear()
                     Toast.makeText(this, getString(R.string.no_more_next_stack), Toast.LENGTH_SHORT).show()
                     //  imgForwd.visibility = View.GONE
                 }//
